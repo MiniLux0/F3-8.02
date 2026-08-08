@@ -3,20 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Física III — Portal Maestro UNI CF2B1 & MIT 8.02</title>
-  <meta name="description" content="Portal académico de Física III (UNI CF2B1 y MIT 8.02). Catálogo completo de clases de Teoría UNI, sesiones oficiales, solucionarios de exámenes 2015-2025, laboratorios y equivalencia curricular.">
+  <meta name="description" content="Portal Académico de Física III (Electromagnetismo) — Integración curricular UNI CF2B1 y MIT 8.02 OpenCourseWare, Catálogo de 146 recursos, Radar Predictivo IA y Formulario Maestro.">
+  <meta name="theme-color" content="#050811">
+  <title>Portal Maestro Física III — UNI CF2B1 & MIT 8.02</title>
 
-  <!-- Google Fonts: Plus Jakarta Sans (Modern UI), Space Grotesk (Tech Headings), Cormorant Garamond (Academic Display), JetBrains Mono (Code/TeX) -->
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- MathJax Configuration for LaTeX rendering -->
+  <!-- Design System CSS -->
+  <link rel="stylesheet" href="src/css/main.css">
+
+  <!-- Configuración de MathJax 3 -->
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']],
+        processEscapes: true
       },
       options: {
         skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
@@ -24,319 +29,328 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-  <!-- External Design System Stylesheet -->
-  <link rel="stylesheet" href="src/css/main.css">
-
-  <!-- Universal Application Script (Offline & Web Compatible) -->
-  <script defer src="src/js/app.js"></script>
 </head>
 <body>
-  <!-- Ambient Background Mesh Glows -->
-  <div class="bg-mesh" aria-hidden="true"></div>
-  <div class="bg-mesh-center" aria-hidden="true"></div>
 
-  <!-- Mobile Sidebar Overlay -->
-  <div id="sidebar-overlay" class="sidebar-overlay" aria-hidden="true"></div>
+  <!-- Enlace de Accesibilidad -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
-  <div class="layout">
-    <!-- ── SIDEBAR NAVIGATION ── -->
+  <!-- Luces Ambientales de Fondo -->
+  <div class="ambient-glow-tl" aria-hidden="true"></div>
+  <div class="ambient-glow-br" aria-hidden="true"></div>
+
+  <!-- Telón de Fondo para Móviles -->
+  <div id="sidebar-backdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
+  <div class="app-layout">
+    
+    <!-- ── SIDEBAR DE NAVEGACIÓN ── -->
     <aside id="sidebar" class="sidebar" aria-label="Navegación principal">
-      <div class="sidebar-logo">
-        <div class="logo-eyebrow">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          Portal Académico
+      <div class="sidebar-header">
+        <div class="logo-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M12 3v18"></path>
+            <path d="M3 12h18"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
         </div>
-        <h1>Física III</h1>
-        <div class="sub">UNI CF2B1 ↔ MIT 8.02</div>
+        <div class="logo-info">
+          <h1>FÍSICA III</h1>
+          <p>UNI CF2B1 · MIT 8.02</p>
+        </div>
       </div>
 
-      <nav class="sidebar-nav">
+      <div class="sidebar-scrollable">
+        
         <!-- Vistas Principales -->
-        <div class="nav-section">
-          <span class="nav-section-label">Vistas Principales</span>
-          <button class="nav-item active" data-view="catalog" data-filter="all" id="nav-all">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Biblioteca de Recursos</span>
-              <span class="nav-subtitle">Catálogo de 146+ PDFs</span>
-            </div>
-            <span class="nav-count" id="count-all">146</span>
-          </button>
+        <div>
+          <div class="nav-group-title">Vistas de Estudio</div>
+          <nav aria-label="Modos de estudio">
+            <button class="nav-item active" data-view="catalog" id="nav-catalog">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              <span class="nav-label">Biblioteca de Recursos</span>
+              <span class="nav-badge" id="badge-all-count">146</span>
+            </button>
 
-          <button class="nav-item" data-view="compare" data-filter="compare" id="nav-compare">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Malla Curricular UNI ↔ MIT</span>
-              <span class="nav-subtitle">Mapeo temático PC1 a Final</span>
-            </div>
-          </button>
+            <button class="nav-item" data-view="compare" id="nav-compare">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M16 3h5v5"></path>
+                <path d="M4 20L21 3"></path>
+                <path d="M21 16v5h-5"></path>
+                <path d="M15 15l6 6"></path>
+                <path d="M4 4l5 5"></path>
+              </svg>
+              <span class="nav-label">Malla Curricular UNI-MIT</span>
+              <span class="nav-badge">8 Ev</span>
+            </button>
+
+            <button class="nav-item" data-view="predictions" id="nav-predictions">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              <span class="nav-label">Radar Predictivo IA</span>
+              <span class="nav-badge special-ai">95%</span>
+            </button>
+
+            <button class="nav-item" data-view="week" id="nav-week">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span class="nav-label">Estudio por Semana</span>
+              <span class="nav-badge">1–16</span>
+            </button>
+
+            <button class="nav-item" data-view="bookmarks" id="nav-bookmarks">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span class="nav-label">Mis Marcadores</span>
+              <span class="nav-badge special-star">★</span>
+            </button>
+
+            <button class="nav-item" data-view="formulas" id="nav-formulas">
+              <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polyline points="4 7 4 4 20 4 20 7"></polyline>
+                <line x1="9" y1="20" x2="15" y2="20"></line>
+                <line x1="12" y1="4" x2="12" y2="20"></line>
+              </svg>
+              <span class="nav-label">Formulario Maestro</span>
+              <span class="nav-badge">PDF</span>
+            </button>
+          </nav>
         </div>
 
-        <!-- Material Oficial UNI -->
-        <div class="nav-section">
-          <span class="nav-section-label">Material Oficial UNI</span>
-          <button class="nav-item" data-view="catalog" data-filter="tello" id="nav-tello">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Teoría UNI</span>
-              <span class="nav-subtitle">21 Clases Magistrales</span>
-            </div>
-            <span class="nav-count" id="count-tello">21</span>
-          </button>
-
-          <button class="nav-item" data-view="catalog" data-filter="clase" id="nav-clase">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Sesiones Semanales</span>
-              <span class="nav-subtitle">Semanas 1 a 15 (27 Diapositivas)</span>
-            </div>
-            <span class="nav-count" id="count-clase">27</span>
-          </button>
-
-          <button class="nav-item" data-view="catalog" data-filter="bonus" id="nav-bonus">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Bonus Track UNI</span>
-              <span class="nav-subtitle">12 PDFs Selectos</span>
-            </div>
-            <span class="nav-count" id="count-bonus">12</span>
-          </button>
-
-          <button class="nav-item" data-view="catalog" data-filter="exam" id="nav-exam">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Exámenes & Solucionarios</span>
-              <span class="nav-subtitle">Banco Histórico 2015–2025</span>
-            </div>
-            <span class="nav-count" id="count-exam">0</span>
-          </button>
-
-          <button class="nav-item" data-view="catalog" data-filter="lab-uni" id="nav-lab-uni">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31L4.89 18.23A2 2 0 006.59 21h10.82a2 2 0 001.7-2.77L14 9.31V2"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Laboratorios UNI</span>
-              <span class="nav-subtitle">Guías e Informes L1–L6</span>
-            </div>
-            <span class="nav-count" id="count-lab-uni">10</span>
-          </button>
+        <!-- Filtros Rápidos por Categoría -->
+        <div>
+          <div class="nav-group-title">Colecciones Académicas</div>
+          <nav aria-label="Colecciones de material">
+            <button class="nav-item" data-cat="all">
+              <span class="nav-label">Todos los Materiales</span>
+              <span class="nav-badge">146</span>
+            </button>
+            <button class="nav-item" data-cat="teoria-uni">
+              <span class="nav-label">Teoría UNI (Tello)</span>
+              <span class="nav-badge">21</span>
+            </button>
+            <button class="nav-item" data-cat="sesiones-uni">
+              <span class="nav-label">Sesiones Oficiales UNI</span>
+              <span class="nav-badge">27</span>
+            </button>
+            <button class="nav-item" data-cat="bonus">
+              <span class="nav-label">Bonus Track & Resúmenes</span>
+              <span class="nav-badge">12</span>
+            </button>
+            <button class="nav-item" data-cat="examenes">
+              <span class="nav-label">Exámenes & Solucionarios</span>
+              <span class="nav-badge">51</span>
+            </button>
+            <button class="nav-item" data-cat="labs-uni">
+              <span class="nav-label">Laboratorios UNI</span>
+              <span class="nav-badge">10</span>
+            </button>
+            <button class="nav-item" data-cat="teoria-mit">
+              <span class="nav-label">Teoría MIT 8.02</span>
+              <span class="nav-badge">14</span>
+            </button>
+            <button class="nav-item" data-cat="ps-mit">
+              <span class="nav-label">Problem Solving MIT</span>
+              <span class="nav-badge">11</span>
+            </button>
+            <button class="nav-item" data-cat="labs-mit">
+              <span class="nav-label">Laboratorios TEAL MIT</span>
+              <span class="nav-badge">10</span>
+            </button>
+          </nav>
         </div>
 
-        <!-- Material MIT 8.02 -->
-        <div class="nav-section">
-          <span class="nav-section-label">Material MIT 8.02</span>
-          <button class="nav-item" data-view="catalog" data-filter="theory" id="nav-theory">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Teoría MIT</span>
-              <span class="nav-subtitle">Capítulos 1 al 14</span>
-            </div>
-            <span class="nav-count" id="count-theory">14</span>
-          </button>
+      </div>
 
-          <button class="nav-item" data-view="catalog" data-filter="solving" id="nav-solving">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Problem Solving MIT</span>
-              <span class="nav-subtitle">11 Guías de Problemas</span>
-            </div>
-            <span class="nav-count" id="count-solving">11</span>
-          </button>
-
-          <button class="nav-item" data-view="catalog" data-filter="lab" id="nav-lab">
-            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
-            <div class="nav-text">
-              <span class="nav-title">Laboratorios TEAL MIT</span>
-              <span class="nav-subtitle">10 Experimentos y Guías</span>
-            </div>
-            <span class="nav-count" id="count-lab">10</span>
-          </button>
-        </div>
-      </nav>
-
+      <!-- Footer del Sidebar -->
       <div class="sidebar-footer">
-        <a href="CF2B1_Fisica_III_UNI/Material_Oficial_UNI/Libros/Libro_Fisica_III_UNI.pdf" target="_blank" rel="noopener noreferrer" class="sidebar-link primary">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
-          <span>Libro Física III UNI (PDF)</span>
-        </a>
-        <a href="CF2B1_Fisica_III_UNI/Material_Oficial_UNI/Examenes_Pasados/2022-II/Formulario_Oficial_Electromagnetismo.pdf" target="_blank" rel="noopener noreferrer" class="sidebar-link accent">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg>
-          <span>Formulario Oficial UNI</span>
-        </a>
-        <a href="8.02-spring-2007/index.html" target="_blank" rel="noopener noreferrer" class="sidebar-link">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-          <span>MIT OCW 8.02 Offline</span>
-        </a>
-        <a href="CF2B1_Fisica_III_UNI/Material_Oficial_UNI/Silabo/Silabo_Fisica_III_CF2B1.pdf" target="_blank" rel="noopener noreferrer" class="sidebar-link">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          <span>Sílabo Oficial UNI</span>
+        <a href="CF2B1_Fisica_III_UNI/Material_Oficial_UNI/Examenes_Pasados/2022-II/Formulario_Oficial_Electromagnetismo.pdf" target="_blank" rel="noopener noreferrer" class="footer-link highlight">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Formulario Oficial UNI ↗</span>
         </a>
       </div>
     </aside>
 
-    <!-- ── MAIN CONTENT AREA ── -->
-    <div class="main">
-      <!-- Topbar Header -->
+    <!-- ── ÁREA PRINCIPAL ── -->
+    <div class="main-wrapper">
+      
+      <!-- Topbar Sticky -->
       <header class="topbar">
-        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú de navegación">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-        </button>
+        <div class="topbar-left">
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menú de navegación">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
 
-        <div class="search-box">
-          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg>
-          <input
-            id="search-input"
-            type="search"
-            placeholder="Buscar por tema, ley o fórmula (Gauss, Maxwell, Solucionario, PC1, Kirchhoff...)"
-            aria-label="Buscar recursos académicos"
-            autocomplete="off"
-          >
+          <div class="search-container">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input 
+              type="text" 
+              id="search-input" 
+              class="search-input" 
+              placeholder="Buscar por tema, ecuación (LaTeX), examen o semana (ej: Gauss, Lorentz, PC2, RC)..."
+              autocomplete="off"
+              aria-label="Buscar en recursos académicos"
+            >
+            <button id="search-clear-btn" class="search-clear-btn" aria-label="Limpiar búsqueda">&times;</button>
+          </div>
         </div>
 
         <div class="topbar-right">
-          <span id="top-count-pill" class="count-pill">Cargando catálogo...</span>
+          <div class="stat-chip">
+            <span class="dot"></span>
+            <span><strong id="topbar-total-count">146</strong> Recursos Activos</span>
+          </div>
         </div>
       </header>
 
-      <!-- Main Scrollable Content -->
-      <main class="content">
-        <!-- View Switcher -->
-        <div class="view-switcher-wrap">
-          <div class="view-switcher" role="tablist" aria-label="Modo de visualización">
-            <button id="tab-catalog" class="view-tab active" role="tab" aria-selected="true" data-view="catalog">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
-              <span>Biblioteca de Recursos</span>
-              <span class="tab-badge" id="tab-catalog-count">146</span>
+      <!-- Contenido Principal -->
+      <main id="main-content" class="content-area">
+        
+        <!-- Barra Superior de Pestañas de Vista -->
+        <nav class="view-tabs-bar" aria-label="Vistas principales">
+          <div class="tabs-group" role="tablist">
+            <button class="tab-btn active" data-view="catalog" role="tab" aria-selected="true">
+              <span>Biblioteca</span>
             </button>
-            <button id="tab-compare" class="view-tab" role="tab" aria-selected="false" data-view="compare">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
-              <span>Malla Curricular UNI ↔ MIT</span>
-              <span class="tab-badge special">Equivalencia</span>
+            <button class="tab-btn" data-view="compare" role="tab" aria-selected="false">
+              <span>Malla UNI ↔ MIT</span>
+            </button>
+            <button class="tab-btn glow-rose" data-view="predictions" role="tab" aria-selected="false">
+              <span>Radar Predictivo IA</span>
+              <span class="tab-tag">95%</span>
+            </button>
+            <button class="tab-btn" data-view="week" role="tab" aria-selected="false">
+              <span>Estudio por Semana</span>
+            </button>
+            <button class="tab-btn glow-amber" data-view="bookmarks" role="tab" aria-selected="false">
+              <span>★ Favoritos</span>
+            </button>
+            <button class="tab-btn" data-view="formulas" role="tab" aria-selected="false">
+              <span>Formulario</span>
             </button>
           </div>
+        </nav>
 
-          <!-- Category Filter Pills (Visible in Catalog mode) -->
-          <div id="filter-pills" class="filter-pills" role="toolbar" aria-label="Filtros rápidos">
-            <!-- Injected dynamically -->
-          </div>
-        </div>
-
-        <!-- Hero Banner -->
-        <section class="hero" id="hero-banner" aria-label="Presentación del portal">
-          <div class="hero-eq" aria-hidden="true">
-            \oint \vec{E}\cdot d\vec{A} = \frac{q}{\varepsilon_0}<br>
-            \oint \vec{B}\cdot d\vec{s} = \mu_0 I + \mu_0\varepsilon_0\frac{d\Phi_E}{dt}<br>
-            \mathcal{E} = -\frac{d\Phi_B}{dt}
-          </div>
-
-          <div class="hero-badge">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
-            Edición Integral 2025–2026
-          </div>
-
-          <h2 id="hero-title">Electromagnetismo & Óptica</h2>
-          <p id="hero-desc">
-            Portal académico integral para el curso <strong>CF2B1 Física III (UNI)</strong> alineado curricularmente al curso <strong>MIT 8.02</strong>. Incluye clases magistrales de teoría, 27 sesiones oficiales, banco de exámenes resueltos (2015–2025), laboratorios UNI & TEAL MIT, y libro de texto completo.
-          </p>
-
-          <div class="hero-stats">
-            <div class="h-stat">
-              <span class="num" id="stat-total">146</span>
-              <span class="lbl">Recursos en Catálogo</span>
+        <!-- ── VISTA 1: CATÁLOGO DE RECURSOS ── -->
+        <section id="view-catalog" class="view-section">
+          
+          <!-- Hero Banner Académico -->
+          <div id="hero-banner" class="academic-hero">
+            <div class="hero-background-eqs" aria-hidden="true">
+              \(\vec{\nabla} \cdot \vec{E} = \frac{\rho}{\varepsilon_0}\)<br>
+              \(\vec{\nabla} \cdot \vec{B} = 0\)<br>
+              \(\vec{\nabla} \times \vec{E} = -\frac{\partial\vec{B}}{\\partial t}\)<br>
+              \(\vec{\nabla} \times \vec{B} = \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}\)
             </div>
-            <div class="h-stat">
-              <span class="num">10</span>
-              <span class="lbl">Ciclos de Exámenes (2015–2025)</span>
-            </div>
-            <div class="h-stat">
-              <span class="num">15</span>
-              <span class="lbl">Semanas Académicas</span>
-            </div>
-            <div class="h-stat">
-              <span class="num">14</span>
-              <span class="lbl">Capítulos MIT 8.02</span>
-            </div>
-          </div>
-        </section>
 
-        <!-- UNI ↔ MIT Comparison Section (Visible in compare mode) -->
-        <section id="compare-section" class="compare-section" aria-label="Malla Curricular UNI y MIT" style="display: none;">
-          <!-- Stepper & Subview Header -->
-          <div class="compare-header-box">
-            <div class="compare-header-top">
-              <div>
-                <div class="compare-badge">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                  Mapeo Curricular Oficial
-                </div>
-                <h3 class="compare-headline">Equivalencia Académica UNI CF2B1 ↔ MIT 8.02</h3>
-                <p class="compare-subheadline">
-                  Alineación temática semana a semana de las <strong>8 evaluaciones oficiales de la UNI</strong> con los <strong>14 capítulos de teoría, guías de problem solving y laboratorios de MIT 8.02 TEAL</strong>.
-                </p>
+            <div class="hero-pill-badge">
+              <span>Electromagnetismo Universitario de Alto Nivel</span>
+            </div>
+
+            <h2 class="hero-title">
+              Portal Maestro de <span>Física III</span>
+            </h2>
+
+            <p class="hero-description">
+              Plataforma académica unificada para dominar la teoría, exámenes y laboratorios del curso 
+              <strong>UNI CF2B1</strong> con el estándar internacional del <strong>MIT 8.02 OpenCourseWare</strong>.
+            </p>
+
+            <div class="hero-stats-row">
+              <div class="hero-stat-card">
+                <span class="hero-stat-num" id="stat-uni-count">111</span>
+                <span class="hero-stat-lbl">Recursos Oficiales UNI</span>
               </div>
-
-              <!-- Subview Toggle (Cards Roadmap vs Table Matrix) -->
-              <div class="compare-toggle-group" role="group" aria-label="Modo de vista de equivalencia">
-                <button id="toggle-view-cards" class="compare-toggle-btn active" title="Vista Módulos Comparativos (Bento Roadmap)">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></svg>
-                  <span>Módulos Comparativos</span>
-                </button>
-                <button id="toggle-view-table" class="compare-toggle-btn" title="Vista Matriz Compacta (Tabla)">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
-                  <span>Matriz Resumida</span>
-                </button>
+              <div class="hero-stat-card">
+                <span class="hero-stat-num" id="stat-mit-count">35</span>
+                <span class="hero-stat-lbl">Recursos MIT 8.02</span>
+              </div>
+              <div class="hero-stat-card">
+                <span class="hero-stat-num" id="stat-exam-count">51</span>
+                <span class="hero-stat-lbl">Exámenes & Solucionarios</span>
+              </div>
+              <div class="hero-stat-card">
+                <span class="hero-stat-num">16</span>
+                <span class="hero-stat-lbl">Semanas Académicas</span>
               </div>
             </div>
-
-            <!-- Horizontal Stepper Navigator -->
-            <div class="eval-stepper-track" id="eval-stepper-track" role="tablist" aria-label="Navegador de Evaluaciones">
-              <!-- Stepper items injected dynamically -->
-            </div>
           </div>
 
-          <!-- 1. Bento Modules Roadmap View -->
-          <div id="compare-modules-container" class="compare-modules-container">
-            <!-- Dynamic comparison cards injected here -->
+          <!-- Filtros de Categoría Rápidos (Chips) -->
+          <div id="category-filter-chips" class="category-filter-chips" role="group" aria-label="Filtrar por colección" style="margin: 20px 0 10px;">
+            <button class="filter-chip active" data-cat="all">Todos (146)</button>
+            <button class="filter-chip" data-cat="teoria-uni">Teoría UNI</button>
+            <button class="filter-chip" data-cat="sesiones-uni">Sesiones Semanales</button>
+            <button class="filter-chip" data-cat="bonus">Bonus & Resúmenes</button>
+            <button class="filter-chip" data-cat="examenes">Exámenes & Solucionarios</button>
+            <button class="filter-chip" data-cat="labs-uni">Labs UNI</button>
+            <button class="filter-chip" data-cat="teoria-mit">Teoría MIT</button>
+            <button class="filter-chip" data-cat="ps-mit">Problem Solving MIT</button>
+            <button class="filter-chip" data-cat="labs-mit">Labs TEAL MIT</button>
           </div>
 
-          <!-- 2. Modern Table Matrix View (Initially Hidden) -->
-          <div id="compare-table-container" class="table-wrap" style="display: none;">
-            <div class="table-scroll">
-              <table class="matrix-table">
-                <thead>
-                  <tr>
-                    <th style="width: 160px;">Evaluación UNI</th>
-                    <th style="width: 320px;">Unidad Temática & Fórmulas Clave</th>
-                    <th>🇺🇸 MIT OpenCourseWare 8.02 (Teoría & PS)</th>
-                    <th>🇵🇪 UNI CF2B1 (Teoría, Exámenes & Labs)</th>
-                  </tr>
-                </thead>
-                <tbody id="table-body">
-                  <!-- Generated dynamically -->
-                </tbody>
-              </table>
-            </div>
+          <!-- Grid de Tarjetas de Recursos -->
+          <div id="resource-grid" class="resource-grid" aria-live="polite">
+            <!-- Inyectado dinámicamente por app.js -->
           </div>
         </section>
 
-        <!-- Bento Grid Resources Section (Visible in catalog mode) -->
-        <section id="resources-section" aria-label="Catálogo de recursos">
-          <div class="section-header">
-            <h3 id="section-title">Todos los Recursos Académicos</h3>
-            <span class="tag" id="section-count">0 items</span>
-            <div class="divider"></div>
-          </div>
-
-          <div class="cards" id="cards-grid">
-            <!-- Cards generated dynamically -->
-            <div id="empty-state" class="empty" aria-live="polite">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 15s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
-              <p>No se encontraron recursos que coincidan con tu búsqueda.</p>
-            </div>
-          </div>
+        <!-- ── VISTA 2: MALLA CURRICULAR UNI ↔ MIT ── -->
+        <section id="view-compare" class="view-section" style="display:none;">
+          <!-- Inyectado dinámicamente por renderCompareView() -->
         </section>
+
+        <!-- ── VISTA 3: RADAR PREDICTIVO IA ── -->
+        <section id="view-predictions" class="view-section" style="display:none;">
+          <!-- Inyectado dinámicamente por renderPredictionsView() -->
+        </section>
+
+        <!-- ── VISTA 4: ESTUDIO POR SEMANA ── -->
+        <section id="view-week" class="view-section" style="display:none;">
+          <!-- Inyectado dinámicamente por renderWeekModeView() -->
+        </section>
+
+        <!-- ── VISTA 5: MIS MARCADORES ── -->
+        <section id="view-bookmarks" class="view-section" style="display:none;">
+          <!-- Inyectado dinámicamente por renderBookmarksView() -->
+        </section>
+
+        <!-- ── VISTA 6: MODO FÓRMULAS & CHEAT-SHEET ── -->
+        <section id="view-formulas" class="view-section" style="display:none;">
+          <!-- Inyectado dinámicamente por renderFormulasView() -->
+        </section>
+
       </main>
     </div>
   </div>
+
+  <!-- Scripts Modulares -->
+  <script src="src/js/data.js"></script>
+  <script src="src/js/app.js"></script>
 </body>
 </html>
