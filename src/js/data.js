@@ -1461,9 +1461,9 @@ window.PORTAL_DATA = (function() {
         'E_z = \\frac{\\sigma}{2\\varepsilon_0}\\left(1 - \\frac{z}{\\sqrt{z^2 + R^2}}\\right)',
         '\\vec{\\tau} = \\vec{p} \\times \\vec{E}, \\quad U = -\\vec{p} \\cdot \\vec{E}'
       ],
-      typicalTraps: 'Confundir el vector unitario \\hat{r} con \\vec{r} sin normalizar en la integral de Coulomb, u olvidar descomponer los diferenciales de carga dq por simetría.',
+      typicalTraps: 'Confundir el vector unitario \\(\\hat{r}\\) con \\(\\vec{r}\\) sin normalizar en la integral de Coulomb, u olvidar descomponer los diferenciales de carga \\(dq\\) por simetría.',
       frequentProblemTypes: [
-        'Cálculo analítico del vector campo E en el eje de un disco cargado no homogéneamente (\\sigma(r) = \\sigma_0 r/R).',
+        'Cálculo analítico del vector campo \\(\\vec{E}\\) en el eje de un disco cargado no homogéneamente con densidad \\(\\sigma(r) = \\sigma_0 \\frac{r}{R}\\).',
         'Fuerza neta y torque sobre una barra cargada en presencia de una carga puntual exterior.'
       ],
       studyAdvice: 'Domina los cambios de variable trigonométricos en integrales de varilla y el uso de coordenadas polares para discos.'
@@ -1473,7 +1473,7 @@ window.PORTAL_DATA = (function() {
       evalName: 'Práctica Calificada 2 (PC2)',
       stats: { historicalExams: 16, accuracyRate: 96.0 },
       highProbTopics: [
-        { topic: 'Ley de Gauss en Cilindros/Esferas No Homogéneas (\\rho(r))', prob: 96 },
+        { topic: 'Ley de Gauss en Cilindros/Esferas No Homogéneas (\\(\\rho(r)\\))', prob: 96 },
         { topic: 'Potencial de Distribuciones Continuas & Gradiente', prob: 91 },
         { topic: 'Conductores Concéntricos y Cargas Inducidas', prob: 85 }
       ],
@@ -1482,12 +1482,12 @@ window.PORTAL_DATA = (function() {
         'V(r) = -\\int_\\infty^r \\vec{E} \\cdot d\\vec{r}',
         'E_n = \\frac{\\sigma}{\\varepsilon_0} \\quad (\\text{Superficie Conductora})'
       ],
-      typicalTraps: 'Calcular la carga encerrada Q_{enc} integrando hasta el radio R exterior en lugar del radio gaussiano r interno (r < R).',
+      typicalTraps: 'Calcular la carga encerrada \\(Q_{\\text{enc}}\\) integrando hasta el radio exterior \\(R\\) en lugar del radio gaussiano interno \\(r\\) (para \\(r < R\\)).',
       frequentProblemTypes: [
         'Esfera aislante con densidad de carga volumétrica cuadrática rodeada por un cascarón conductor concéntrico.',
         'Obtención del campo eléctrico a partir de un potencial dado en coordenadas esféricas o cilíndricas.'
       ],
-      studyAdvice: 'Grafica siempre la curva de E(r) y V(r) por tramos para verificar la continuidad del potencial y el salto del campo.'
+      studyAdvice: 'Grafica siempre la curva de \\(E(r)\\) y \\(V(r)\\) por tramos para verificar la continuidad del potencial y el salto del campo.'
     },
     {
       evalId: 'eval-pc3',
@@ -1495,17 +1495,17 @@ window.PORTAL_DATA = (function() {
       stats: { historicalExams: 15, accuracyRate: 93.8 },
       highProbTopics: [
         { topic: 'Capacitancia con Dieléctricos Inserción Parcial', prob: 95 },
-        { topic: 'Vector Desplazamiento D y Cargas de Polarización', prob: 90 },
-        { topic: 'Fuerzas Electrostáticas en Condensadores (F = -dU/dx)', prob: 84 }
+        { topic: 'Vector Desplazamiento \\(\\vec{D}\\) y Cargas de Polarización', prob: 90 },
+        { topic: 'Fuerzas Electrostáticas en Condensadores (\\(F = -dU/dx\\))', prob: 84 }
       ],
       mustKnowFormulas: [
         'C = \\frac{\\varepsilon_0 A}{d - t + t/\\kappa}',
         '\\sigma_b = \\vec{P} \\cdot \\hat{n} = \\frac{\\kappa - 1}{\\kappa}\\sigma_{\\text{libre}}',
         'F_x = \\frac{1}{2} V^2 \\frac{dC}{dx} \\quad (V = \\text{cte})'
       ],
-      typicalTraps: 'Usar F = -dU/dx con signo negativo cuando el voltaje está conectado a la batería (en voltaje constante, el trabajo de la fuente duplica la energía).',
+      typicalTraps: 'Usar \\(F = -dU/dx\\) con signo negativo cuando el condensador está conectado a la batería (a voltaje constante \\(V\\), el trabajo de la fuente duplica la energía).',
       frequentProblemTypes: [
-        'Condensador de placas paralelas con dieléctrico no homogéneo (\\kappa(x) = \\kappa_0 + \\alpha x) conectado en serie o paralelo.',
+        'Condensador de placas paralelas con dieléctrico no homogéneo (\\(\\kappa(x) = \\kappa_0 + \\alpha x\\)) conectado en serie o paralelo.',
         'Fuerza mecánica ejercida sobre una lámina dieléctrica que penetra parcialmente entre las armaduras.'
       ],
       studyAdvice: 'Separa mentalmente el condensador con dieléctrico en franjas infinitesimales de circuitos equivalentes.'
@@ -1524,9 +1524,9 @@ window.PORTAL_DATA = (function() {
         'i(t) = i(\\infty) + [i(0^+) - i(\\infty)] e^{-t/\\tau}',
         '\\sum \\mathcal{E} = \\sum I R'
       ],
-      typicalTraps: 'Olvidar la condición de continuidad del condensador: el voltaje en C no puede cambiar instantáneamente (V_C(0^+) = V_C(0^-)).',
+      typicalTraps: 'Olvidar la condición de continuidad del condensador: el voltaje en \\(C\\) no puede cambiar instantáneamente (\\(V_C(0^+) = V_C(0^-)\\)).',
       frequentProblemTypes: [
-        'Circuito con dos mallas, fuente DC y condensador que cambia de estado en t=0; cálculo de corriente y energía disipada en resistencias.',
+        'Circuito con dos mallas, fuente DC y condensador que cambia de estado en \\(t=0\\); cálculo de corriente y energía disipada en resistencias.',
         'Esferas conductoras unidas por un alambre fino tras alcanzar el equilibrio de potenciales.'
       ],
       studyAdvice: 'Resuelve al menos 3 exámenes parciales completos con cronómetro (110 minutos por examen).'
@@ -1545,12 +1545,12 @@ window.PORTAL_DATA = (function() {
         'B = \\frac{\\mu_0 I}{4\\pi R} \\theta \\quad (\\text{Arco Circular})',
         '\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}'
       ],
-      typicalTraps: 'Confundir el sentido del producto vectorial \\vec{v} \\times \\vec{B} con la regla de la mano derecha al evaluar cargas negativas (electrones).',
+      typicalTraps: 'Confundir el sentido del producto vectorial \\(\\vec{v} \\times \\vec{B}\\) con la regla de la mano derecha al evaluar partículas con carga negativa (electrones).',
       frequentProblemTypes: [
-        'Partícula cargada inyectada en una región con campos cruzados E y B (selector de velocidades y posterior deflexión).',
+        'Partícula cargada inyectada en una región con campos cruzados \\(\\vec{E}\\) y \\(\\vec{B}\\) (selector de velocidades y posterior deflexión).',
         'Campo magnético total en el centro de una espira con segmentos rectilíneos y semicirculares.'
       ],
-      studyAdvice: 'Dibuja con claridad los tres vectores (v, B, F) en perspectiva 3D antes de escribir las ecuaciones escalares.'
+      studyAdvice: 'Dibuja con claridad los tres vectores (\\(\\vec{v}, \\vec{B}, \\vec{F}\\)) en perspectiva 3D antes de escribir las ecuaciones escalares.'
     },
     {
       evalId: 'eval-pc5',
@@ -1566,12 +1566,12 @@ window.PORTAL_DATA = (function() {
         '\\oint \\vec{B} \\cdot d\\vec{\\ell} = \\mu_0 \\iint \\vec{J} \\cdot d\\vec{A}',
         'L = \\frac{N \\Phi_B}{I}'
       ],
-      typicalTraps: 'No aplicar correctamente la Ley de Lenz para el signo de la corriente inducida: el flujo inducido se OPONE a la variación del flujo externo.',
+      typicalTraps: 'No aplicar correctamente la Ley de Lenz para el signo de la corriente inducida: el flujo inducido se OPONE a la variación del flujo magnético externo.',
       frequentProblemTypes: [
-        'Barra conductora deslizándose sobre rieles en U con fricción y resistencia en presencia de un campo B variable en el tiempo.',
-        'Cálculo de B(r) en un cable coaxial con corrientes no uniformes en el conductor interno y externo.'
+        'Barra conductora deslizándose sobre rieles en U con fricción y resistencia en presencia de un campo \\(\\vec{B}(t)\\) variable en el tiempo.',
+        'Cálculo de \\(B(r)\\) en un cable coaxial con corrientes no uniformes en el conductor interno y externo.'
       ],
-      studyAdvice: 'Identifica si la variación de flujo proviene del cambio de B(t) (FEM transformacional) o del cambio de área A(t) (FEM rotacional).'
+      studyAdvice: 'Identifica si la variación de flujo proviene del cambio de \\(B(t)\\) (FEM transformacional) o del cambio de área \\(A(t)\\) (FEM rotacional).'
     },
     {
       evalId: 'eval-pc6',
@@ -1587,10 +1587,10 @@ window.PORTAL_DATA = (function() {
         'P_{\\text{prom}} = V_{\\text{rms}} I_{\\text{rms}} \\cos\\theta',
         'I_d = \\varepsilon_0 \\frac{d\\Phi_E}{dt} = C \\frac{dV}{dt}'
       ],
-      typicalTraps: 'Usar valores pico (V_0, I_0) en la fórmula de potencia sin dividir entre 2 (o sin usar los valores eficaces rms).',
+      typicalTraps: 'Usar valores pico (\\(V_0, I_0\\)) en la fórmula de potencia promedio sin dividir entre 2 (o sin usar los valores eficaces rms).',
       frequentProblemTypes: [
         'Circuito RLC conectado a generador sinusoidal; cálculo de frecuencia de resonancia y ancho de banda.',
-        'Campo magnético B inducido entre las placas circulares de un condensador durante el proceso de carga.'
+        'Campo magnético \\(\\vec{B}\\) inducido entre las placas circulares de un condensador durante el proceso de carga.'
       ],
       studyAdvice: 'Utiliza el álgebra compleja de fasores: ahorra hasta un 60% de tiempo frente a resolver ecuaciones diferenciales.'
     },
@@ -1608,7 +1608,7 @@ window.PORTAL_DATA = (function() {
         '\\nabla^2 \\vec{E} = \\mu_0 \\varepsilon_0 \\frac{\\partial^2 \\vec{E}}{\\partial t^2}',
         'P_{\\text{radiada}} = \\iint \\vec{S} \\cdot d\\vec{A}'
       ],
-      typicalTraps: 'Olvidar relacionar las amplitudes del campo eléctrico y magnético de una onda plana en el vacío: E_0 = c B_0.',
+      typicalTraps: 'Olvidar relacionar las amplitudes del campo eléctrico y magnético de una onda electromagnética plana en el vacío: \\(E_0 = c B_0\\).',
       frequentProblemTypes: [
         'Onda electromagnética plana incidiendo sobre una superficie; cálculo de presión de radiación, intensidad y vector de Poynting.',
         'Problema integral de síntesis que combina una espira con corriente alterna y su radiación electromagnética.'
