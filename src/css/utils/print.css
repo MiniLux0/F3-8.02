@@ -1,0 +1,28 @@
+/* ── 16. PRINT STYLESHEET (@media print) ── */
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .sidebar, .topbar, .view-tabs-bar, .ambient-glow-tl, .ambient-glow-br, .print-btn {
+    display: none !important;
+  }
+  .main-wrapper {
+    margin-left: 0 !important;
+  }
+  .content-area {
+    padding: 0 !important;
+  }
+  .formula-topic-card, .dense-formula-item {
+    background: #fff !important;
+    border: 1px solid #ccc !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  .card-formula-box, .formula-item {
+    background: #f8fafc !important;
+    color: #000 !important;
+    border: 1px solid #ddd !important;
+  }
+}

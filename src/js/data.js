@@ -1,7 +1,7 @@
 // src/js/data.js
 // Banco de Datos Maestro: Recursos, Malla Curricular UNI-MIT, Radar Predictivo y Formulario
 
-window.PORTAL_DATA = (function() {
+const PORTAL_DATA = (function() {
   
   // ── 1. MAPA DE SEMANAS ACADÉMICAS ──
   const WEEKS_DATA = [
@@ -1708,3 +1708,6 @@ window.PORTAL_DATA = (function() {
   };
 
 })();
+
+export const { WEEKS_DATA, RESOURCES, MALLA_MODULES, PREDICTIONS_DATA, FORMULAS_BANK } = PORTAL_DATA;
+export default PORTAL_DATA;

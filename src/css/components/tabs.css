@@ -1,0 +1,82 @@
+/* ── 8. VIEW SWITCHER TABS ── */
+.content-area {
+  padding: clamp(14px, 3vw, 28px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 3vw, 28px);
+  max-width: 1480px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.view-tabs-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  gap: 0;
+}
+
+.view-tabs-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs-group {
+  display: inline-flex;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-pill);
+  padding: 4px;
+  gap: 4px;
+  flex-shrink: 0;
+  min-width: max-content;
+}
+
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: all var(--trans-fast);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+}
+
+.tab-btn.active {
+  background: var(--bg-surface-raised);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.tab-btn.active.glow-rose {
+  color: var(--accent-rose);
+  border-color: rgba(244, 63, 94, 0.35);
+}
+
+.tab-btn.active.glow-amber {
+  color: var(--accent-amber);
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+.tab-tag {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.08);
+}

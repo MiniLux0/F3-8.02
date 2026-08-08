@@ -1,0 +1,44 @@
+/* ── 3. AMBIENT BACKGROUND EFFECTS ── */
+.ambient-glow-tl {
+  position: fixed;
+  top: -15vw;
+  left: -10vw;
+  width: 55vw;
+  height: 55vw;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, rgba(6, 182, 212, 0.05) 45%, transparent 70%);
+  filter: blur(90px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ambient-glow-br {
+  position: fixed;
+  bottom: -15vw;
+  right: -10vw;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, rgba(244, 63, 94, 0.04) 50%, transparent 75%);
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── 15b. SIDEBAR BACKDROP (always present, only visible when toggled) ── */
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 998;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.sidebar-backdrop.active {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}

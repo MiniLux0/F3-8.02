@@ -1,0 +1,66 @@
+/* ── 1. DESIGN TOKENS ── */
+:root {
+  /* Surface & Base Colors */
+  --bg-app: #050811;
+  --bg-sidebar: #090e1a;
+  --bg-surface: #0e1626;
+  --bg-surface-raised: #141f36;
+  --bg-surface-hover: #1b2a47;
+  --bg-card: rgba(14, 22, 38, 0.72);
+  --bg-card-hover: rgba(22, 34, 58, 0.85);
+
+  /* Luminous Accents (Physics & Energy Themed) */
+  --accent-cyan: #06b6d4;
+  --accent-cyan-glow: rgba(6, 182, 212, 0.28);
+  --accent-violet: #8b5cf6;
+  --accent-violet-glow: rgba(139, 92, 246, 0.28);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.28);
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.25);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.28);
+  --accent-electric: #38bdf8;
+
+  /* Semantic Category Tokens */
+  --cat-uni-theory: #f43f5e;
+  --cat-uni-session: #f59e0b;
+  --cat-uni-bonus: #eab308;
+  --cat-uni-exam: #fb923c;
+  --cat-uni-lab: #d97706;
+  --cat-mit-theory: #06b6d4;
+  --cat-mit-ps: #8b5cf6;
+  --cat-mit-lab: #10b981;
+
+  /* Typography */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-highlight: #ffffff;
+
+  --font-display: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", SFMono-Regular, Consolas, monospace;
+
+  /* Borders & Glows */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.15);
+  --border-active: rgba(56, 189, 248, 0.45);
+  --glass-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  --glass-shadow-hover: 0 20px 42px -6px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(56, 189, 248, 0.35);
+
+  /* Layout Dimensions */
+  --sidebar-width: 290px;
+  --topbar-height: 64px;
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Animation Easings */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --trans-fast: 0.15s ease;
+  --trans-smooth: 0.25s var(--ease-spring);
+}

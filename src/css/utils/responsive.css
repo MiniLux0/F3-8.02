@@ -1,0 +1,300 @@
+/* ── 17. RESPONSIVE BREAKPOINTS (Mobile-First Polish) ── */
+@media (max-width: 1024px) {
+  .radar-stats-hero {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: min(320px, 86vw);
+    height: 100vh;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.95);
+  }
+
+  .sidebar-close-btn {
+    display: flex;
+  }
+
+  .main-wrapper {
+    margin-left: 0;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    border-radius: var(--radius-sm);
+    background: var(--bg-surface-raised);
+    border: 1px solid var(--border-medium);
+    color: var(--text-primary);
+    cursor: pointer;
+    flex-shrink: 0;
+    touch-action: manipulation;
+  }
+
+  .mobile-menu-btn:active {
+    transform: scale(0.94);
+    background: var(--bg-surface);
+  }
+
+  .topbar {
+    padding: 0 12px;
+    gap: 8px;
+  }
+
+  .search-container {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .topbar-right {
+    display: none;
+  }
+
+  .tab-btn {
+    padding: 7px 12px;
+    font-size: 0.78rem;
+  }
+
+  .category-filter-chips {
+    padding-bottom: 6px;
+    margin: 12px 0 6px !important;
+  }
+
+  .filter-chip {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    font-size: 0.78rem;
+  }
+
+  /* Academic Hero Mobile */
+  .academic-hero {
+    padding: 22px 18px;
+    border-radius: var(--radius-md);
+  }
+
+  .hero-title {
+    font-size: clamp(1.35rem, 5vw, 1.8rem);
+  }
+
+  .hero-description {
+    font-size: 0.85rem;
+    line-height: 1.55;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 16px;
+    margin-top: 4px;
+  }
+
+  .hero-stat-card {
+    padding: 12px 10px;
+    background: rgba(255,255,255,0.03);
+    border-radius: var(--radius-sm);
+  }
+
+  .hero-stat-num {
+    font-size: 1.5rem;
+  }
+
+  .hero-stat-lbl {
+    font-size: 0.7rem;
+  }
+
+  .hero-background-eqs {
+    display: none;
+  }
+
+  /* Resource Cards Grid Mobile */
+  .resource-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .resource-card {
+    padding: 16px;
+  }
+
+  .card-formula-box {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 8px 10px;
+  }
+
+  /* Botón PDF más accesible en móvil */
+  .open-pdf-btn {
+    min-height: 44px;
+    padding: 8px 14px;
+  }
+
+  /* Comparison View Mobile */
+  .malla-header-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .stepper-nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+    width: 100%;
+  }
+
+  .stepper-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stepper-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 8px 14px;
+    font-size: 0.78rem;
+  }
+
+  .comparison-bento {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .comparison-formulas-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .formula-item {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .matrix-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--radius-sm);
+  }
+
+  .matrix-table th, .matrix-table td {
+    padding: 10px 8px;
+    font-size: 0.78rem;
+  }
+
+  /* Radar Predictivo Mobile */
+  .radar-stats-hero {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .radar-stat-box {
+    padding: 14px;
+  }
+
+  .radar-stat-val {
+    font-size: 1.6rem;
+  }
+
+  .prediction-card {
+    padding: 18px 14px;
+    gap: 18px;
+  }
+
+  /* Week Study Mode Mobile */
+  .week-selector-track {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+  }
+
+  .week-selector-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .week-bubble {
+    flex-shrink: 0;
+    min-width: 60px;
+  }
+
+  /* Formulas Cheat-Sheet Mobile */
+  .formulas-view-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .formula-topic-card {
+    padding: 16px;
+  }
+
+  .dense-formula-item {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    padding: 0 8px;
+    gap: 6px;
+  }
+
+  .search-input {
+    font-size: 0.8rem;
+    padding: 9px 34px 9px 38px;
+  }
+
+  .academic-hero {
+    padding: 16px 14px;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-title {
+    font-size: clamp(1.2rem, 6vw, 1.5rem);
+  }
+
+  .tab-btn {
+    padding: 6px 10px;
+    font-size: 0.74rem;
+  }
+
+  .filter-chip {
+    padding: 5px 10px;
+    font-size: 0.74rem;
+  }
+
+  .open-pdf-btn {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    min-height: 40px;
+  }
+
+  .card-title {
+    font-size: 0.97rem;
+  }
+}

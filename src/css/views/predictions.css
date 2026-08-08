@@ -1,0 +1,84 @@
+/* ── 12. VISTA 3: RADAR PREDICTIVO ── */
+.radar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.radar-stats-hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.radar-stat-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.radar-stat-val {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent-rose);
+}
+
+.radar-stat-lbl {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.prediction-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(244, 63, 94, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0 12px 36px rgba(244, 63, 94, 0.08);
+}
+
+.pred-topic-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.pred-topic-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.progress-bar-bg {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-surface);
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--accent-amber), var(--accent-rose));
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.5);
+}
+
+.trap-box {
+  background: rgba(244, 63, 94, 0.1);
+  border-left: 4px solid var(--accent-rose);
+  padding: 14px 18px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 0.88rem;
+  color: #fecdd3;
+}

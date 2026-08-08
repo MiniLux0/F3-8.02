@@ -1,0 +1,65 @@
+/* ── 14. VISTA 5: MODO FÓRMULAS & CHEAT-SHEET (NUEVO FEATURE 3) ── */
+.formulas-view-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 18px 24px;
+}
+
+.print-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-amber);
+  color: #000;
+  font-weight: 700;
+  font-size: 0.84rem;
+  transition: all var(--trans-fast);
+}
+
+.print-btn:hover {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
+  transform: translateY(-2px);
+}
+
+.formula-topic-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.formula-grid-dense {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 14px;
+}
+
+.dense-formula-item {
+  background: var(--bg-surface);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formula-label {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  color: var(--accent-cyan);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}

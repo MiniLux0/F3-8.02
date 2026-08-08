@@ -1,0 +1,225 @@
+/* ── 11. VISTA 2: MALLA CURRICULAR UNI ↔ MIT ── */
+.malla-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.malla-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+}
+
+.malla-header-info h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-highlight);
+}
+.malla-header-info p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.stepper-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 6px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.stepper-nav::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.stepper-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: all var(--trans-fast);
+  cursor: pointer;
+}
+
+.stepper-btn:hover {
+  background: var(--bg-surface-raised);
+  color: var(--text-primary);
+  border-color: var(--border-medium);
+  transform: translateY(-1px);
+}
+
+.stepper-btn.active {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25) 0%, rgba(139, 92, 246, 0.12) 100%);
+  color: #c4b5fd;
+  border-color: var(--accent-violet);
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.35);
+}
+
+.radar-container .stepper-btn.active {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.25) 0%, rgba(244, 63, 94, 0.12) 100%);
+  color: #fca5a5;
+  border-color: var(--accent-rose);
+  box-shadow: 0 0 16px rgba(244, 63, 94, 0.35);
+}
+
+.comparison-bento {
+  background: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: var(--glass-shadow);
+}
+
+.comparison-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comparison-eval-title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-highlight);
+}
+
+.comparison-week-tag {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(139, 92, 246, 0.2);
+  color: var(--accent-violet);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.comparison-formulas-bar {
+  background: var(--bg-surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  align-items: center;
+}
+
+.formula-item {
+  text-align: center;
+  font-size: 1.05rem;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-xs);
+}
+
+.comparison-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 24px;
+}
+
+.comp-col {
+  background: rgba(9, 14, 26, 0.6);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.comp-col-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.comp-col.mit .comp-col-header { color: var(--accent-cyan); }
+.comp-col.uni .comp-col-header { color: var(--accent-amber); }
+
+.comp-resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comp-resource-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  transition: all var(--trans-fast);
+}
+
+.comp-resource-item:hover {
+  background: var(--bg-surface-raised);
+  border-color: var(--border-medium);
+  transform: translateX(4px);
+}
+
+/* Compact Matrix Table View */
+.matrix-table-wrap {
+  overflow-x: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.88rem;
+}
+
+.matrix-table th, .matrix-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.matrix-table th {
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+}
+
+.matrix-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
