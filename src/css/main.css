@@ -39,9 +39,11 @@
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 
-  /* Typography */
-  --font-serif: "EB Garamond", Georgia, serif;
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Typography Tokens */
+  --font-display: "Space Grotesk", "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-heading: "Space Grotesk", "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Cormorant Garamond", "EB Garamond", Georgia, serif;
   --font-mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
   
   /* Layout Sizing */
@@ -157,10 +159,10 @@ body {
 }
 
 .sidebar-logo h1 {
-  font-family: var(--font-serif);
-  font-size: 1.7rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
   color: #fff;
   line-height: 1.15;
 }
@@ -548,12 +550,12 @@ body {
 }
 
 .hero h2 {
-  font-family: var(--font-serif);
-  font-size: 2.3rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 2.35rem;
+  font-weight: 700;
   line-height: 1.15;
   color: #fff;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
   margin-bottom: 10px;
 }
 
@@ -651,9 +653,10 @@ body {
 }
 
 .section-header h3 {
-  font-family: var(--font-serif);
-  font-size: 1.45rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: #fff;
 }
 
@@ -751,11 +754,12 @@ body {
 }
 
 .card-title {
-  font-family: var(--font-serif);
-  font-size: 1.18rem;
+  font-family: var(--font-sans);
+  font-size: 1.12rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   color: #fff;
-  line-height: 1.3;
+  line-height: 1.35;
   margin-bottom: 8px;
 }
 
@@ -854,11 +858,11 @@ body {
 }
 
 .compare-headline {
-  font-family: var(--font-serif);
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   margin-bottom: 6px;
 }
 
@@ -1054,11 +1058,11 @@ body {
 }
 
 .eval-card-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.45rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 .eval-card-desc {
