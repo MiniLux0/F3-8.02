@@ -389,11 +389,16 @@
 
         <!-- Stepper de Evaluación -->
         <div class="stepper-nav" role="tablist">
-          ${predictions.map(p => `
-            <button class="stepper-btn ${p.evalId === activePred.evalId ? 'active' : ''}" data-predid="${p.evalId}" role="tab">
-              ${p.evalName}
-            </button>
-          `).join('')}
+          ${predictions.map(p => {
+            const shortCode = p.evalName.match(/\((.*?)\)/)?.[1] || '';
+            const cleanTitle = p.evalName.replace(/\s*\(.*?\)/, '').replace('Práctica Calificada', 'Práctica');
+            const displayLabel = shortCode ? `${shortCode} · ${cleanTitle}` : p.evalName;
+            return `
+              <button class="stepper-btn ${p.evalId === activePred.evalId ? 'active' : ''}" data-predid="${p.evalId}" role="tab" aria-selected="${p.evalId === activePred.evalId}">
+                ${displayLabel}
+              </button>
+            `;
+          }).join('')}
         </div>
 
         <!-- Tarjeta Predictiva Principal -->

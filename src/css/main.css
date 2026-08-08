@@ -548,14 +548,14 @@ button {
   gap: 8px;
   overflow-x: auto;
   padding: 4px 0 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .category-filter-chips::-webkit-scrollbar {
-  height: 4px;
-}
-.category-filter-chips::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .filter-chip {
@@ -871,13 +871,24 @@ button {
   display: flex;
   align-items: center;
   gap: 8px;
-  overflow-x: auto;
-  padding: 8px 0;
+  flex-wrap: wrap;
+  padding: 6px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.stepper-nav::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .stepper-btn {
-  padding: 8px 14px;
-  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   font-size: 0.82rem;
@@ -885,18 +896,28 @@ button {
   color: var(--text-secondary);
   white-space: nowrap;
   transition: all var(--trans-fast);
+  cursor: pointer;
 }
 
 .stepper-btn:hover {
   background: var(--bg-surface-raised);
   color: var(--text-primary);
+  border-color: var(--border-medium);
+  transform: translateY(-1px);
 }
 
 .stepper-btn.active {
-  background: var(--accent-violet);
-  color: #fff;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.25) 0%, rgba(139, 92, 246, 0.12) 100%);
+  color: #c4b5fd;
   border-color: var(--accent-violet);
-  box-shadow: 0 0 16px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.35);
+}
+
+.radar-container .stepper-btn.active {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.25) 0%, rgba(244, 63, 94, 0.12) 100%);
+  color: #fca5a5;
+  border-color: var(--accent-rose);
+  box-shadow: 0 0 16px rgba(244, 63, 94, 0.35);
 }
 
 .comparison-bento {
@@ -1134,6 +1155,14 @@ button {
   gap: 8px;
   overflow-x: auto;
   padding: 10px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.week-selector-track::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .week-bubble {
