@@ -1,0 +1,74 @@
+{
+  "course_description": "This freshman-level course is the second semester of introductory physics. The focus is on electricity and magnetism. The subject is taught using the TEAL (Technology Enabled Active Learning) format which utilizes small group interaction and current technology. The TEAL/Studio Project at MIT is a new approach to physics education designed to help students develop much better intuition about, and conceptual models of, physical phenomena.\n\n**Staff List**\n\nVisualizations:    \nProf. John Belcher\n\nInstructors:    \nDr. Peter Dourmashkin    \nProf. Bruce Knuteson    \nProf. Gunther Roland    \nProf. Bolek Wyslouch    \nDr. Brian Wecht    \nProf. Eric Katsavounidis    \nProf. Robert Simcoe    \nProf. Joseph Formaggio\n\nCourse Co-Administrators:    \nDr. Peter Dourmashkin    \nProf. Robert Redwine\n\nTechnical Instructors:    \nAndy Neely    \nMatthew Strafuss\n\nCourse Material:    \nDr. Peter Dourmashkin    \nProf. Eric Hudson    \nDr. Sen-Ben Liao\n\nAcknowledgements\n\nThe TEAL project is supported by The {{% resource_link \"ea696a53-3e24-4417-8f1f-381c82b8c086\" \"Alex and Brit d'Arbeloff Fund for Excellence in MIT Education\" %}}, {{% resource_link \"a0eed839-edfe-465d-a0b0-7f305d13e902\" \"MIT iCampus\" %}}, the {{% resource_link \"0e038947-03e0-4fca-a812-fdd0297c77f3\" \"Davis Educational Foundation\" %}}, the {{% resource_link \"1cbd388b-8070-45c9-ba21-5573c26c2de2\" \"National Science Foundation\" %}}, the {{% resource_link \"c30324e7-4582-4031-9be6-7e5764db845d\" \"Class of 1960 Endowment for Innovation in Education\" %}}, the {{% resource_link \"a6e75f56-7ea4-4764-83d5-29007c5aa190\" \"Class of 1951 Fund for Excellence in Education\" %}}, the {{% resource_link \"a6e75f56-7ea4-4764-83d5-29007c5aa190\" \"Class of 1955 Fund for Excellence in Teaching\" %}}, and the Helena Foundation. Many people have contributed to the development of the course materials. ([PDF](/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/resources/acknowledgements))",
+  "course_description_html": "<p>This freshman-level course is the second semester of introductory physics. The focus is on electricity and magnetism. The subject is taught using the TEAL (Technology Enabled Active Learning) format which utilizes small group interaction and current technology. The TEAL/Studio Project at MIT is a new approach to physics education designed to help students develop much better intuition about, and conceptual models of, physical phenomena.</p>\n<p><strong>Staff List</strong></p>\n<p>Visualizations:  <br>\nProf. John Belcher</p>\n<p>Instructors:  <br>\nDr. Peter Dourmashkin  <br>\nProf. Bruce Knuteson  <br>\nProf. Gunther Roland  <br>\nProf. Bolek Wyslouch  <br>\nDr. Brian Wecht  <br>\nProf. Eric Katsavounidis  <br>\nProf. Robert Simcoe  <br>\nProf. Joseph Formaggio</p>\n<p>Course Co-Administrators:  <br>\nDr. Peter Dourmashkin  <br>\nProf. Robert Redwine</p>\n<p>Technical Instructors:  <br>\nAndy Neely  <br>\nMatthew Strafuss</p>\n<p>Course Material:  <br>\nDr. Peter Dourmashkin  <br>\nProf. Eric Hudson  <br>\nDr. Sen-Ben Liao</p>\n<p>Acknowledgements</p>\n<p>The TEAL project is supported by The <a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.mit.edu/newsoffice/1999/darb-0310.html\"  aria-label=\"Alex and Brit d&amp;rsquo;Arbeloff Fund for Excellence in MIT Education (opens in a new tab)\"  >Alex and Brit d&rsquo;Arbeloff Fund for Excellence in MIT Education</a>, <a   class=\"external-link \"   target=\"_blank\"   href=\"http://icampus.mit.edu/\"  aria-label=\"MIT iCampus (opens in a new tab)\"  >MIT iCampus</a>, the <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.davisfoundations.org/site/educational.asp\"  aria-label=\"Davis Educational Foundation (opens in a new tab)\"  >Davis Educational Foundation</a>, the <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.nsf.gov/\"  aria-label=\"National Science Foundation (opens in a new tab)\"  >National Science Foundation</a>, the <a   class=\"external-link \"   target=\"_blank\"   href=\"http://1960.alumclass.mit.edu/s/1314/clubs-classes-interior.aspx?sid=1314&amp;gid=51&amp;pgid=2684\"  aria-label=\"Class of 1960 Endowment for Innovation in Education (opens in a new tab)\"  >Class of 1960 Endowment for Innovation in Education</a>, the <a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.mit.edu/acadinfo/alumnifunds/about.html\"  aria-label=\"Class of 1951 Fund for Excellence in Education (opens in a new tab)\"  >Class of 1951 Fund for Excellence in Education</a>, the <a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.mit.edu/acadinfo/alumnifunds/about.html\"  aria-label=\"Class of 1955 Fund for Excellence in Teaching (opens in a new tab)\"  >Class of 1955 Fund for Excellence in Teaching</a>, and the Helena Foundation. Many people have contributed to the development of the course materials. (<a href=\"https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/resources/acknowledgements\" target=\"_blank\" rel=\"noopener\">PDF</a>)</p>\n",
+  "course_image": {
+    "content": "80f23093-924b-68e9-4f4a-80034902a572",
+    "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Magnet Levitating Above A Superconducting Ring: The image shows a permanent magnet levitating above a conducting non-magnetic ring with zero resistance. The magnet is levitated by eddy currents induced in the ring by the approaching magnet. These currents are always such as to repel the magnet, by Lenz Law. (Image courtesy of Prof. John Belcher.)",
+    "draft": false,
+    "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/80f23093924b68e94f4a80034902a572_8-02s07.jpg",
+    "file_size": 28769,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Magnet Levitating Above A Superconducting Ring: The image shows a permanent magnet levitating above a conducting non-magnetic ring with zero resistance. The magnet is levitated by eddy currents induced in the ring by the approaching magnet. These currents are always such as to repel the magnet, by Lenz's Law. (Image by Mark Bessette.)",
+      "credit": "",
+      "image-alt": "Vizualization of a magnet levitating above a superconducting ring."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "8-02s07.jpg",
+    "uid": "80f23093-924b-68e9-4f4a-80034902a572",
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "1d6fc795-9e56-d74c-c188-57cf20ab13dd",
+    "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+  },
+  "course_title": "Physics II: Electricity and Magnetism",
+  "department_numbers": [
+    "8"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/80f23093924b68e94f4a80034902a572_8-02s07.jpg",
+  "instructors": [
+    {
+      "first_name": "Physics Department",
+      "last_name": "Faculty, Lecturers, and Technical Staff",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Physics Department Faculty, Lecturers, and Technical Staff",
+      "uid": "de1a3f2c-6cec-7107-a00a-b69ca71460cd",
+      "url": "https://ocw.mit.edu/search/?q=Physics+Department+Faculty%2C+Lecturers%2C+and+Technical+Staff"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Lecture Notes"
+  ],
+  "legacy_uid": "8d3bdda7-363b-3a4b-18d9-d5b7c4083899",
+  "level": [
+    "Undergraduate"
+  ],
+  "primary_course_number": "8.02",
+  "site_short_id": "8.02-spring-2007",
+  "site_uid": "4f240be7-a2c8-4c58-97c9-b6682c78964c",
+  "site_url_path": "courses/8-02-physics-ii-electricity-and-magnetism-spring-2007",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Physics",
+      "Electromagnetism"
+    ]
+  ],
+  "year": "2007"
+}

@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains a group problem: Build it.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains a group problem: Build it.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/InClass_Problem_w02d1_3.pdf",
+  "file_size": 24799,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Activity Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Problem Solving",
+  "parent_type": "CourseSection",
+  "parent_uid": "ad9d1a7e-98d0-b1ff-318d-13ddbf7639b1",
+  "resourcetype": "Document",
+  "title": "ic_w02d1_3.pdf",
+  "uid": "edf03573-51b1-47b5-1321-da84611ddfe3",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

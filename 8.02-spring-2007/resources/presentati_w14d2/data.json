@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource includes the following topics: microwaves (mw), interference: the difference between waves and bullets, demonstration: microwave interference, interference - phase shift, microwave interference, prs question: interference, two transmitters, two in-phase sources: geometry, interference for two sources in phase, the light equivalent: two slits, young?s double-slit experiment, prs question: double slit path difference, lecture demonstration: double slit, diffraction, single-slit diffraction, intensity distribution, prs question: two slits with width, babinet?s principle, experiment 13.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes the following topics: microwaves (mw), interference: the difference between waves and bullets, demonstration: microwave interference, interference - phase shift, microwave interference, prs question: interference, two transmitters, two in-phase sources: geometry, interference for two sources in phase, the light equivalent: two slits, young?s double-slit experiment, prs question: double slit path difference, lecture demonstration: double slit, diffraction, single-slit diffraction, intensity distribution, prs question: two slits with width, babinet?s principle, experiment 13.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Presentation_w14d2.pdf",
+  "file_size": 1426933,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Class Activities",
+  "parent_type": "CourseSection",
+  "parent_uid": "588b48d5-a339-0347-e6e5-b16b0ec1fe7b",
+  "resourcetype": "Document",
+  "title": "presentati_w14d2.pdf",
+  "uid": "eee0ea4c-0259-4543-07b7-d1c431284d72",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

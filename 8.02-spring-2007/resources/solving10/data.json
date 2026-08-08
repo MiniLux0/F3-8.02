@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource tells to introduce the &ldquo;displacement current&rdquo; term that Maxwell added to Ampere?s Law, to find the magnetic field inside a charging cylindrical capacitor using this new term in Ampere?s Law, to introduce the concept of energy flow through space in the electromagnetic field, to quantify that energy flow by introducing the Pointing vector and to do a calculation of the rate at which energy flows into a capacitor when it is charging, and show that it accounts for the rate at which electric energy stored in the capacitor is increasing.</p>\n",
+  "content_type": "resource",
+  "description": "This resource tells to introduce the \"displacement current\" term that Maxwell added to Ampere?s Law, to find the magnetic field inside a charging cylindrical capacitor using this new term in Ampere?s Law, to introduce the concept of energy flow through space in the electromagnetic field, to quantify that energy flow by introducing the Pointing vector and to do a calculation of the rate at which energy flows into a capacitor when it is charging, and show that it accounts for the rate at which electric energy stored in the capacitor is increasing.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Problem_Solving_10_EM_Radiation.pdf",
+  "file_size": 274018,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Problem Solving",
+  "parent_type": "CourseSection",
+  "parent_uid": "ad9d1a7e-98d0-b1ff-318d-13ddbf7639b1",
+  "resourcetype": "Document",
+  "title": "EM radiation",
+  "uid": "7be3a856-117c-d029-124c-ab269b13e5cf",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

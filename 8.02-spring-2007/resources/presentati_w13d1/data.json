@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource includes the following topics:\ntraveling waves, traveling sine wave, standing waves, maxwell?s equations, properties of em waves, direction of propagation, wave equation, 1d wave equation for e, and electromagnetic radiation.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes the following topics:\ntraveling waves, traveling sine wave, standing waves, maxwell?s equations, properties of em waves, direction of propagation, wave equation, 1d wave equation for e, and electromagnetic radiation.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Presentation_w13d1.pdf",
+  "file_size": 738214,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Class Activities",
+  "parent_type": "CourseSection",
+  "parent_uid": "588b48d5-a339-0347-e6e5-b16b0ec1fe7b",
+  "resourcetype": "Document",
+  "title": "presentati_w13d1.pdf",
+  "uid": "f0730dc7-fb61-895f-a432-51265809c52f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

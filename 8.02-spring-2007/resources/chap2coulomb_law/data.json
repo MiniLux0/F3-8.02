@@ -1,0 +1,45 @@
+{
+  "content": "<p>This resource includes the following topics:\nelectric charge, Coulomb&rsquo;s law, principle of superposition, electric field, electric field lines, force on a charged particle in an electric field, electric dipole, dipole in electric field, charge density, electric fields due to continuous charge distributions, summary, problem-solving strategies, solved problems, conceptual questions, and additional problems.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes the following topics:\nelectric charge, Coulomb's law, principle of superposition, electric field, electric field lines, force on a charged particle in an electric field, electric dipole, dipole in electric field, charge density, electric fields due to continuous charge distributions, summary, problem-solving strategies, solved problems, conceptual questions, and additional problems.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Chapter_02_Coulombs_Law.pdf",
+  "file_size": 930190,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Class Activities",
+  "parent_type": "CourseSection",
+  "parent_uid": "588b48d5-a339-0347-e6e5-b16b0ec1fe7b",
+  "resourcetype": "Document",
+  "title": "Chapter 2",
+  "uid": "408d6833-9510-6a54-b6d8-9433457abb6c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

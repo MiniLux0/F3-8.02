@@ -1,0 +1,24 @@
+{
+  "content": "<p>This file talks about how electricity and magnetism interact with each other and also considers finalizing Maxwell?s Equations, their result ? electromagnetic (EM) radiation and how energy flows in electric and magnetic fields.</p>\n",
+  "content_type": "resource",
+  "description": "This file talks about how electricity and magnetism interact with each other and also considers finalizing Maxwell?s Equations, their result ? electromagnetic (EM) radiation and how energy flows in electric and magnetic fields.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Summary_Reading_w12d2.pdf",
+  "file_size": 119864,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "0daf4987-1459-8983-aa85-5689f242c83b",
+  "resourcetype": "Document",
+  "title": "summary_w12d2.pdf",
+  "uid": "a1bfc34c-cf08-ddf8-4746-27b9a13d6ca8",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

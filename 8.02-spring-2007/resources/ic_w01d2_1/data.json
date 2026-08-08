@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains the in class problem for the course that are solved in groups.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the in class problem for the course that are solved in groups.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/InClass_Problem_w01d2_1.pdf",
+  "file_size": 34251,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Activity Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Problem Solving",
+  "parent_type": "CourseSection",
+  "parent_uid": "ad9d1a7e-98d0-b1ff-318d-13ddbf7639b1",
+  "resourcetype": "Document",
+  "title": "ic_w01d2_1.pdf",
+  "uid": "9d9bef11-df30-205d-aea4-93f6be24adb5",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

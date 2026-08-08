@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains informations about methodology for applying Gauss?s law and exercises on concentric cylinders.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains informations about methodology for applying Gauss?s law and exercises on concentric cylinders.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Problem_Solving_03_Gauss_Law.pdf",
+  "file_size": 83002,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Problem Solving",
+  "parent_type": "CourseSection",
+  "parent_uid": "ad9d1a7e-98d0-b1ff-318d-13ddbf7639b1",
+  "resourcetype": "Document",
+  "title": "Gauss’s law",
+  "uid": "dc84ab49-c125-20f6-d4a0-43106ba75f91",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

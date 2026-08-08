@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Complete set of experiments in one file</title>
+      <link>/resources/all_experiments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/all_experiments/data.json</guid>
+      <description>&lt;p&gt;This resource contains a complete set of experiments in one file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 1: Equipotential Lines and Electric Fields</title>
+      <link>/resources/experiment1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment1/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on equipotential lines and electric fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 2: Faraday Ice Pail</title>
+      <link>/resources/experiment2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment2/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on Faraday ice pail.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 3: Magnetic Fields of a Bar Magnet and Helmholtz Coil</title>
+      <link>/resources/experiment3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment3/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on magnetic fields of a bar magnet and Helmholtz coil.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 4: Forces and Torques on Magnetic Dipoles</title>
+      <link>/resources/experiment4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment4/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on forces and torques on magnetic dipoles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 5: Faraday’s Law</title>
+      <link>/resources/experiment5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment5/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on Faraday&amp;rsquo;s law.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 6: Ohm’s Law, RC and RL Circuits</title>
+      <link>/resources/experiment6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment6/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on Ohm&amp;rsquo;s law, RC and RL circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 7: Undriven and Driven RLC Circuits</title>
+      <link>/resources/experiment7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment7/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on undriven and driven RLC circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 8: Undriven and Driven RLC Circuits (cont.)</title>
+      <link>/resources/experiment8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment8/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on undriven and driven RLC circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiment 9: Interference and Diffraction</title>
+      <link>/resources/experiment9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/experiment9/data.json</guid>
+      <description>&lt;p&gt;This resource contains an experiment on interference and diffraction.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

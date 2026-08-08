@@ -1,0 +1,24 @@
+{
+  "content": "<p>This file talks about some of the mathematical concepts and Maxwell?s equations.</p>\n",
+  "content_type": "resource",
+  "description": "This file talks about some of the mathematical concepts and Maxwell?s equations.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Summary_Reading_w01d3.pdf",
+  "file_size": 37733,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "0daf4987-1459-8983-aa85-5689f242c83b",
+  "resourcetype": "Document",
+  "title": "summary_w01d3.pdf",
+  "uid": "83a9b66f-2896-c2bd-1568-b41bc478fe1c",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

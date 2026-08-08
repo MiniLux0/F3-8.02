@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ampere’s law</title>
+      <link>/resources/solving05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving05/data.json</guid>
+      <description>&lt;p&gt;This resource tells  about using Ampere?s Law for calculating magnetic fields from symmetric current distributions, to find an expression for the magnetic field of a cylindrical current-carrying shell of inner radius a and outer radius b using Ampere?s Law and to find an expression for the magnetic field of a slab of current using Ampere?s Law.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capacitors</title>
+      <link>/resources/solving04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving04/data.json</guid>
+      <description>&lt;p&gt;This resource contains  problem solving strategies using Gauss?s law, compute the electric potential difference between two conductors, cylindrical capacitor and problems on electric field.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous charge distributions</title>
+      <link>/resources/solving02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving02/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about problem solving strategies, continuous charge densities and electric field on the axis of a line of charge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coordinate systems; Gradients; Line and surface integrals</title>
+      <link>/resources/solving01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving01/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about coordinate systems, vector fields, differentiation &amp;amp; the gradient and multi variable integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Driven LRC circuits</title>
+      <link>/resources/solving09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving09/data.json</guid>
+      <description>&lt;p&gt;This resource tells to explore the relationship between driven current and driving emf in three simple circuits that contain: (1) only resistance; (2) only inductance; and (3) only capacitance, to examine these same relationships in the general case where R, L, and C are all present, and to do two sample problems on the LRC circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>EM radiation</title>
+      <link>/resources/solving10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving10/data.json</guid>
+      <description>&lt;p&gt;This resource tells to introduce the &amp;ldquo;displacement current&amp;rdquo; term that Maxwell added to Ampere?s Law, to find the magnetic field inside a charging cylindrical capacitor using this new term in Ampere?s Law, to introduce the concept of energy flow through space in the electromagnetic field, to quantify that energy flow by introducing the Pointing vector and to do a calculation of the rate at which energy flows into a capacitor when it is charging, and show that it accounts for the rate at which electric energy stored in the capacitor is increasing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gauss’s law</title>
+      <link>/resources/solving03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving03/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about methodology for applying Gauss?s law and exercises on concentric cylinders.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interference</title>
+      <link>/resources/solving11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving11/data.json</guid>
+      <description>&lt;p&gt;This resource tells to understand the meaning of constructive and destructive interference, to understand how to determine the interference conditions for double slit interference and to understand how to determine the intensity of the light associated with double slit interference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Magnetic fields: Force and torque on a current loop</title>
+      <link>/resources/solving06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving06/data.json</guid>
+      <description>&lt;p&gt;This resource tell about To look at the behavior of a charged particle in a uniform magnetic field by studying the operation of a mass spectrometer, to calculate the torque on a rectangular loop of current-carrying wire sitting in an external magnetic field and define the magnetic dipole moment of a loop of current-carrying wire and write the torque on the loop in terms of that vector and the external magnetic field.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mutual inductance and transformers; Inductors</title>
+      <link>/resources/solving07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving07/data.json</guid>
+      <description>&lt;p&gt;This resource tells about to explore a particular situation that can lead to a changing magnetic flux through the open surface bounded by an electric circuit, to calculate the rate of change of magnetic flux through the open surface bounded by that circuit in this situation, to determine the sense of the induced current in the circuit from Lenz?s Law and to look at the forces on the current carrying wires in our circuit and determine the effects of these forces on the dynamics of the circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RC and RL circuits</title>
+      <link>/resources/solving08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving08/data.json</guid>
+      <description>&lt;p&gt;This resource tells to  gain intuition for the behavior of DC circuits with both resistors and capacitors or inductors. In this particular problem solving you will be working with an RC circuit. You should carefully consider what would change if the capacitor were replaced with an inductor and to calculate the time dependent currents in such circuits.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

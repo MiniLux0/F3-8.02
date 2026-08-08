@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains a complete set of experiments in one file.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains a complete set of experiments in one file.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Experiment_00_All_Experiments_Complete.pdf",
+  "file_size": 3265472,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Experiments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5b67d4a8-cb63-9758-8148-2c1bb40692c8",
+  "resourcetype": "Document",
+  "title": "Complete set of experiments in one file",
+  "uid": "04b5e1ef-7c5d-c6af-4bcb-15d4a88ae8a2",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource includes exam 3 topics, general exam suggestions, prs questions: faraday?s &amp; lenz?s law; inductors &amp; LR circuits; undriven RLC circuits; driven RLC circuits; displacement/poynting; sample exam problems and solutions.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes exam 3 topics, general exam suggestions, prs questions: faraday?s & lenz?s law; inductors & LR circuits; undriven RLC circuits; driven RLC circuits; displacement/poynting; sample exam problems and solutions.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Presentation_w13d2.pdf",
+  "file_size": 930333,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Class Activities",
+  "parent_type": "CourseSection",
+  "parent_uid": "588b48d5-a339-0347-e6e5-b16b0ec1fe7b",
+  "resourcetype": "Document",
+  "title": "presentati_w13d2.pdf",
+  "uid": "02bd2558-fd15-8e36-3ae3-6e4f026ddd79",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

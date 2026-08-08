@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains an experiment on Faraday ice pail.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains an experiment on Faraday ice pail.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Experiment_02_Faraday_Ice_Pail.pdf",
+  "file_size": 307589,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Experiments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5b67d4a8-cb63-9758-8148-2c1bb40692c8",
+  "resourcetype": "Document",
+  "title": "Experiment 2: Faraday Ice Pail",
+  "uid": "f803575f-ba24-ecde-393d-a41a40708777",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

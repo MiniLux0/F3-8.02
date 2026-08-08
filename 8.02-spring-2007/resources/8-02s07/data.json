@@ -1,0 +1,24 @@
+{
+  "content": "<p>Magnet Levitating Above A Superconducting Ring: The image shows a permanent magnet levitating above a conducting non-magnetic ring with zero resistance. The magnet is levitated by eddy currents induced in the ring by the approaching magnet. These currents are always such as to repel the magnet, by Lenz Law. (Image courtesy of Prof. John Belcher.)</p>\n",
+  "content_type": "resource",
+  "description": "Magnet Levitating Above A Superconducting Ring: The image shows a permanent magnet levitating above a conducting non-magnetic ring with zero resistance. The magnet is levitated by eddy currents induced in the ring by the approaching magnet. These currents are always such as to repel the magnet, by Lenz Law. (Image courtesy of Prof. John Belcher.)",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/80f23093924b68e94f4a80034902a572_8-02s07.jpg",
+  "file_size": 28769,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Magnet Levitating Above A Superconducting Ring: The image shows a permanent magnet levitating above a conducting non-magnetic ring with zero resistance. The magnet is levitated by eddy currents induced in the ring by the approaching magnet. These currents are always such as to repel the magnet, by Lenz's Law. (Image by Mark Bessette.)",
+    "credit": "",
+    "image-alt": "Vizualization of a magnet levitating above a superconducting ring."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "8-02s07.jpg",
+  "uid": "80f23093-924b-68e9-4f4a-80034902a572",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class Slides</title>
+      <link>/pages/class-slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/class-slides/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;WEEK #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;CLASS SLIDES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;CONCEPT QUESTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction to TEAL; Fields; Review of gravity; Electric field&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/presentati_w01d1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prs_w01d1_qonly/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Electric charge; Electric fields; Dipoles; Continuous charge distributions&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/presentati_w01d2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prs_w01d2_qonly/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Coordinate systems; Gradients; Line and surface integrals&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td rowspan=&#34;3&#34;&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Working in groups, electric potential, E from V&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/presentati_w02d1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prs_w02d1_qonly/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Electric potential, equipotentials&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/presentati_w02d2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/prs_w02d2_qonly/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Continuous charge distributions&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w01d1.pdf</title>
+      <link>/resources/presentati_w01d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w01d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;why physics?, why studio physics? (and how?), vector and scalar fields, gravitational fields, and electric fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w01d2.pdf</title>
+      <link>/resources/presentati_w01d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w01d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;gravitational and electric fields, electric field lines, in-class problem, charging, instruments for charging, electric dipoles, electric field created by dipole, shockwave for dipole, dipole in uniform field, torque on dipole, continuous charge distributions, ring of charge, and disk:  two important limits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w02d1.pdf</title>
+      <link>/resources/presentati_w02d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w02d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;Groups, advantages of groups, experiment 1: visualizations, gravity - electricity, potential energy and potential, gravity: force and work, work done by earth?s gravity, work near earth?s surface, potential energy, gravitational potential, prs question: masses in potentials, electrostatics, gravity - electrostatics, potential and energy, potential landscape, potential created by pt charge, deriving E from V, configuration energy, and in class problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w02d2.pdf</title>
+      <link>/resources/presentati_w02d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w02d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;six prs questions on pace and preparation; e field and potential: creating, effects; two prs questions on potential and e field; Gauss&amp;rsquo;s law: the idea, the equation and details; electric flux; prs question: flux through sheet; open and closed surfaces; prs question: flux through sphere; arbitrary gaussian surfaces; applying gauss?s law; gauss: spherical symmetry, cylindrical symmetry, planar symmetry; and group problem: charge slab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w03d1.pdf</title>
+      <link>/resources/presentati_w03d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w03d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;Gauss?s law, conductors, equipotentials, equipotential curves, direction of electric field e, properties of equipotentials, conductors in equilibrium, expt. 2: electrostatic force, capacitors: store electric energy, parallel plate capacitor, calculating e using Gauss&amp;rsquo;s law, parallel plate capacitor, spherical capacitor, capacitance of earth, energy to charge capacitor, energy stored in capacitor, and dissectible capacitor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w03d2.pdf</title>
+      <link>/resources/presentati_w03d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w03d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;conductors in equilibrium, conductors as shields, hollow conductors, conductive shielding, inductive charging, capacitors: store electric energy, batteries and elementary circuits, batteries in series, batteries in parallel, capacitors in parallel, equivalent capacitance, capacitors in series, dielectric in capacitor, dielectrics, Gauss?s law for dielectrics, and dielectric in a capacitor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w04d2.pdf</title>
+      <link>/resources/presentati_w04d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w04d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics: capacitors &amp;amp; dielectrics, DC circuits; examples of circuits, current: flow of charge, direction of the current, current density j, why does current flow, microscopic picture, conductivity and resistivity, microscopic ohm?s law, prs questions: resistance, ohm?s law, symbols for circuit elements, sign conventions -battery; resistor; capacitor, series vs. parallel, resistors in series; parallel, prs questions: light bulbs, kirchhoff?s rules, internal resistance, steps of solving circuit problem, example: simple circuit, group problem: circuit, electrical power, power: battery; resistor; capacitor, energy balance, prs questions: more light bulbs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w05d1.pdf</title>
+      <link>/resources/presentati_w05d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w05d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics: resistors &amp;amp; ohm?s law, measuring voltage &amp;amp; current, experiment 4-part 1: measuring V, I &amp;amp; R, prs questions: charging a capacitor, demonstrations: RC time constants, experiment 4-part II: RC circuits, prs question: multiloop circuit with capacitor in one loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w05d2.pdf</title>
+      <link>/resources/presentati_w05d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w05d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes exam 1 topics, general exam suggestions, prs questions: fields; Electric Fields and Potential; Conductors; Capacitors; Dielectrics, sample exam questions and answers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w06d1.pdf</title>
+      <link>/resources/presentati_w06d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w06d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;magnetic fields, gravitational ? electric fields, magnetic field lines from bar magnet, magnetic field of the earth, bar magnet and earth?s magnetic field, moving charges feel magnetic force, cross product, right hand rule, velocity selector, Hall effect, and exam review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w06d2.pdf</title>
+      <link>/resources/presentati_w06d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w06d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;magnetic fields, magnetic dipoles, cyclotron motion, current carrying wires, jumping wire, magnetic force, parallel and anti-parallel currents, biot-savart, field generated by wire, coil of radius r, and example of B pressure/tension.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w07d1.pdf</title>
+      <link>/resources/presentati_w07d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w07d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;force between wires, rectangular current loop, torque on rectangular loop, magnetic dipole moment, galvanometer, magnetic dipole moment, torque on dipole in uniform field, and force on magnetic dipole.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w07d2.pdf</title>
+      <link>/resources/presentati_w07d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w07d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;right hand rules, magnetic dipole, magnetic levitation, para/ferromagnetism, diamagnetism, the biot-savart law, applying Ampere?s law, magnetic field of solenoid, and maxwell?s equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w09d1.pdf</title>
+      <link>/resources/presentati_w09d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w09d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;force on magnetic dipole, Ampere?s law, magnet falling through a ring, jumping ring, induction, Faraday?s law of induction, ways to induce emf , maxwell?s equations, motors and generators, and electric guitar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w09d2.pdf</title>
+      <link>/resources/presentati_w09d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w09d2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>presentati_w10d1.pdf</title>
+      <link>/resources/presentati_w10d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w10d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes exam 2 topics, general exam suggestions, what you should study, prs questions: light bulbs; DC circuits with capacitors; right hand rule; magnetic dipole moments; making B fields, sample exam problems and solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w10d2.pdf</title>
+      <link>/resources/presentati_w10d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w10d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics: faraday?s law mutual inductance, demonstration: remote speaker, self inductance, prs question: closing a switch; LR circuit &amp;amp; problem, demos: breaking circuits with inductors, energy in inductor, back to back EMF, prs question: stopping a motor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w11d1.pdf</title>
+      <link>/resources/presentati_w11d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w11d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;self inductance, experiment 10: part I-measure L, R, LC circuits mass on a spring: simple harmonic motion (demonstration), electronic analog: LC circuits, prs questions: LC circuit, adding damping: RLC circuits, experiment 10: part II-RLC circuit, prs questions: 2 lab questions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w11d2.pdf</title>
+      <link>/resources/presentati_w11d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w11d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics: undriven RLC circuits, mass on a spring: simple harmonic motion (a second look), demonstration: driven mass on a spring off resonance, demonstration: driven mass on a spring, electronic analog: RLC circuits, demonstration: RLC with light bulb, start at beginning: AC circuits, prs question: leading or lagging, demonstration: phasors, prs questions: phase, prs question: who dominates, RLC circuits: resonances, demonstration: RLC with light bulb, prs questions: resonance, experiment 11: driven RLC circuit; how to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w12d2.pdf</title>
+      <link>/resources/presentati_w12d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w12d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;displacement current, maxwell-ampere?s law, prs questions: capacitor, maxwell?s equations, electromagnetic radiation, traveling sine wave, prs question: wave, properties of em waves, direction of propagation, energy in em waves, poynting vector and intensity, energy flow:  resistor, and energy flow: inductor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w13d1.pdf</title>
+      <link>/resources/presentati_w13d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w13d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;traveling waves, traveling sine wave, standing waves, maxwell?s equations, properties of em waves, direction of propagation, wave equation, 1d wave equation for e, and electromagnetic radiation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w13d2.pdf</title>
+      <link>/resources/presentati_w13d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w13d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes exam 3 topics, general exam suggestions, prs questions: faraday?s &amp;amp; lenz?s law; inductors &amp;amp; LR circuits; undriven RLC circuits; driven RLC circuits; displacement/poynting; sample exam problems and solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w14d1.pdf</title>
+      <link>/resources/presentati_w14d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w14d1/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics:&#xA;electromagnetic radiation, generating plane electromagnetic radiation, generating plane wave applet, generating electric dipole electromagnetic waves, quarter-wavelength antenna, an lc oscillator, spark gap transmitter, prs question: spark gap antenna, polarization, demonstration: microwave polarization, experiment 12: microwaves, and exam 3 results.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w14d2.pdf</title>
+      <link>/resources/presentati_w14d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w14d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes the following topics: microwaves (mw), interference: the difference between waves and bullets, demonstration: microwave interference, interference - phase shift, microwave interference, prs question: interference, two transmitters, two in-phase sources: geometry, interference for two sources in phase, the light equivalent: two slits, young?s double-slit experiment, prs question: double slit path difference, lecture demonstration: double slit, diffraction, single-slit diffraction, intensity distribution, prs question: two slits with width, babinet?s principle, experiment 13.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>presentati_w15d2.pdf</title>
+      <link>/resources/presentati_w15d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/presentati_w15d2/data.json</guid>
+      <description>&lt;p&gt;This resource includes final exam topics, test format, maxwell?s equations, EM field details?, circuits, sample exam problems and solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

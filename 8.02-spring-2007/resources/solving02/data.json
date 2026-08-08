@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains informations about problem solving strategies, continuous charge densities and electric field on the axis of a line of charge.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains informations about problem solving strategies, continuous charge densities and electric field on the axis of a line of charge.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Problem_Solving_02_Continuous_Charge_Distributions.pdf",
+  "file_size": 241300,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Problem Solving",
+  "parent_type": "CourseSection",
+  "parent_uid": "ad9d1a7e-98d0-b1ff-318d-13ddbf7639b1",
+  "resourcetype": "Document",
+  "title": "Continuous charge distributions",
+  "uid": "3eb3a958-1f5c-96b7-62e7-2c5c7e4adf76",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

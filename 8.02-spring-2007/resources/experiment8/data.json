@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains an experiment on undriven and driven RLC circuits.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains an experiment on undriven and driven RLC circuits.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Experiment_08_Undriven_and_Driven_RLC_Circuits_Part2.pdf",
+  "file_size": 266659,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Experiments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5b67d4a8-cb63-9758-8148-2c1bb40692c8",
+  "resourcetype": "Document",
+  "title": "Experiment 8: Undriven and Driven RLC Circuits (cont.)",
+  "uid": "fbfbb22e-8df9-c515-c1d7-f3896c5be1f1",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

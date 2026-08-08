@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource includes the following topics:\nmagnetic fields, gravitational ? electric fields, magnetic field lines from bar magnet, magnetic field of the earth, bar magnet and earth?s magnetic field, moving charges feel magnetic force, cross product, right hand rule, velocity selector, Hall effect, and exam review.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes the following topics:\nmagnetic fields, gravitational ? electric fields, magnetic field lines from bar magnet, magnetic field of the earth, bar magnet and earth?s magnetic field, moving charges feel magnetic force, cross product, right hand rule, velocity selector, Hall effect, and exam review.",
+  "draft": false,
+  "file": "/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/Presentation_w06d1.pdf",
+  "file_size": 687357,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Class Activities",
+  "parent_type": "CourseSection",
+  "parent_uid": "588b48d5-a339-0347-e6e5-b16b0ec1fe7b",
+  "resourcetype": "Document",
+  "title": "presentati_w06d1.pdf",
+  "uid": "2ce40ad5-7f21-67f1-bdc5-278ab490e485",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-02-physics-ii-electricity-and-magnetism-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}
