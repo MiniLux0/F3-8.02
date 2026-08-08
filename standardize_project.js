@@ -96,7 +96,7 @@ function standardizeFileName(name) {
        .replace(/Informe del laboratorio N 6/gi, 'Lab06_Informe_Induccion_Transformadores');
 
   // Libros & Silabo
-  s = s.replace(/Fisica 3-Hugo-Medina-Guzman/gi, 'Fisica_3_Hugo_Medina_Guzman')
+  s = s.replace(/Fisica 3-Hugo-Medina-Guzman|Fisica_3_Hugo_Medina_Guzman/gi, 'Libro_Fisica_III_UNI')
        .replace(/Fsica III/gi, 'Silabo_Fisica_III_CF2B1')
        .replace(/Resumen-Formulas-Electromagnetismo/gi, 'Formulario_Oficial_Electromagnetismo');
 

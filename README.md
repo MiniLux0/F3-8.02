@@ -17,7 +17,7 @@
 | **Teoría MIT 8.02** | 14 capítulos completos del curso MIT TEAL 8.02 Electricity & Magnetism |
 | **Problem Solving MIT** | 11 guías de resolución de problemas con cálculo vectorial y aplicaciones |
 | **Laboratorios MIT TEAL** | 10 guías y experimentos interactivos de laboratorio con simulación |
-| **Libro Oficial** | *Física 3* — Prof. Hugo Medina Guzmán |
+| **Libro de Referencia** | *Física III* — Texto Teórico Oficial UNI |
 | **Malla Curricular UNI ↔ MIT** | Matriz de equivalencia temática entre evaluaciones UNI y capítulos MIT |
 
 ---
@@ -45,7 +45,7 @@
 │       │   ├── Bonus_Track/                   ← 12 PDFs selectos
 │       │   └── Semana_*.pdf                   ← 27 sesiones oficiales
 │       ├── Examenes_Pasados/                  ← Banco 2015–2025 (PC, EP, EF, ES y Labs)
-│       ├── Libros/                            ← Libro Hugo Medina Guzmán
+│       ├── Libros/                            ← Libro Oficial de Teoría UNI (Física III)
 │       └── Silabo/                            ← Sílabo oficial CF2B1
 └── 8.02-spring-2007/                          ← MIT OpenCourseWare 8.02 TEAL Offline
 ```
